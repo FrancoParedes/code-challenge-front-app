@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Valida el clic en el componente GalleryItem 1`] = `
+<div>
+  <div
+    class="gallery-item "
+  >
+    <div
+      class="gallery-item-image"
+    >
+      <span
+        aria-busy="true"
+        aria-live="polite"
+      >
+        <span
+          class="react-loading-skeleton"
+          style="width: 105px; height: 105px;"
+        >
+          ‌
+        </span>
+        <br />
+      </span>
+    </div>
+    <div
+      class="gallery-item-body"
+    >
+      <div
+        class="gallery-item-title"
+      >
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="width: 100%;"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+      <div
+        class="gallery-item-footer"
+      >
+        <div>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="width: 80px;"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+        </div>
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="width: 50px;"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+      <div
+        class="gallery-item-button"
+      >
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="width: 100px; height: 30px;"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test Gallery item render loading 1`] = `
+<div>
+  <div
+    class="gallery-item "
+  >
+    <div
+      class="gallery-item-image"
+    >
+      <span
+        aria-busy="true"
+        aria-live="polite"
+      >
+        <span
+          class="react-loading-skeleton"
+          style="width: 105px; height: 105px;"
+        >
+          ‌
+        </span>
+        <br />
+      </span>
+    </div>
+    <div
+      class="gallery-item-body"
+    >
+      <div
+        class="gallery-item-title"
+      >
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="width: 100%;"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+      <div
+        class="gallery-item-footer"
+      >
+        <div>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="width: 80px;"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+        </div>
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="width: 50px;"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+      <div
+        class="gallery-item-button"
+      >
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="width: 100px; height: 30px;"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

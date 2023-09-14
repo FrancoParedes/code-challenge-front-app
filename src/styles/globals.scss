@@ -1,0 +1,171 @@
+$tablet: 600px;
+$border-radius-md: 0.3rem;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui;
+}
+
+div,
+ul,
+li,
+img,
+a,
+button {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  outline: none;
+}
+.container {
+  max-width: 670px;
+  margin: auto;
+  padding: 1rem;
+}
+.slider-item {
+  margin: 5px 10px;
+}
+
+.slider-item button {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-x: hidden;
+  width: 100%;
+  font-size: 16px;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #cbcbcb;
+  background: #f7f7f7;
+}
+
+.slider-item button.active {
+  background: #fff;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 4px 10px;
+  margin-top: 0.5rem;
+  @media (min-width: $tablet) {
+    grid-gap: 30px 20px;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+.gallery-item {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  padding: 1rem 0;
+  @media (min-width: $tablet) {
+    flex-direction: column;
+    border-bottom: none;
+  }
+}
+
+.gallery-item.border {
+  border-bottom: 1px solid #cbcbcb;
+  @media (min-width: $tablet) {
+    border-radius: $border-radius-md;
+    box-shadow: 0 2px 5px #cbcbcb;
+  }
+}
+
+.gallery-item-image {
+  display: flex;
+  place-content: center;
+  padding: 0;
+}
+
+.gallery-item-body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 1rem;
+  width: 100%;
+  padding: 0;
+  @media (min-width: $tablet) {
+    margin: 1rem 0 0 0;
+    align-items: center;
+    padding: 0px 1.4rem;
+  }
+}
+
+.gallery-item-title {
+  margin: 0;
+  @media (min-width: $tablet) {
+    & span {
+      width: 100px;
+      display: block;
+    }
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+    max-width: 102px;
+  }
+}
+
+.gallery-item-footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 0.4rem;
+  margin-bottom: 0.6rem;
+  @media (min-width: $tablet) {
+    flex-direction: row;
+    border-top: 1px solid #e0e0e0;
+    padding: 0.5rem 0;
+  }
+}
+.gallery-item-button {
+  display: flex;
+  @media (min-width: $tablet) {
+    position: absolute;
+    bottom: -1rem;
+  }
+}
+.gallery-item-button button {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: $border-radius-md;
+  font-size: 0.8rem;
+  background: rgb(238, 118, 78);
+  background: -moz-linear-gradient(
+    32deg,
+    rgba(238, 118, 78, 1) 0%,
+    rgba(244, 183, 143, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    32deg,
+    rgba(238, 118, 78, 1) 0%,
+    rgba(244, 183, 143, 1) 100%
+  );
+  background: linear-gradient(
+    32deg,
+    rgba(238, 118, 78, 1) 0%,
+    rgba(244, 183, 143, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ee764e",endColorstr="#f4b78f",GradientType=1);
+  @media (min-width: $tablet) {
+    padding: 0.5rem 2.4rem;
+  }
+}
