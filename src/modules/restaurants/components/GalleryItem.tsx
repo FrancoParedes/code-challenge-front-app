@@ -16,8 +16,8 @@ interface IGalleryItemProps {
 }
 
 const validateFullData = (restaurant: IPartialRestaurant) => {
-  const { id, image_url, alias, name, rating, price, url } = restaurant;
-  return !!(id && image_url && alias && name && rating && price && url);
+  const { id, image_url, alias, name, rating, url } = restaurant;
+  return !!(id && image_url && alias && name && rating && url);
 };
 
 const GalleryItem: React.FC<IGalleryItemProps> = ({ restaurant, loading = false }) => {
