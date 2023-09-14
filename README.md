@@ -2,7 +2,7 @@
 
 <h2>🚀 Demo</h2>
 
-[www.test.cl](www.test.cl)
+[https://code-challenge-rewards-fqhvr3z8w-francoparedes.vercel.app/](https://code-challenge-rewards-fqhvr3z8w-francoparedes.vercel.app/)
 
 <h2>Project Screenshots:</h2>
 
