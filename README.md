@@ -12,15 +12,22 @@
 
 I know that environment variables should not be uploaded to the code but this is just for a demo.
 
+.env.local
+```
+NEXT_PUBLIC_BACKEND_HOST=http://localhost:3000
+API_KEY=FLXjIkqUKZgMdCt33BAEpvdtwvfTfbI1VAbXLG8wy8g8LCeQDPIZZ5zfBp8zsM4p3CgumsoyPwKUfmtjCERgwCwDrY4x_7icWzLVm7G1URaedaMExP05F76CofgCZXYx
+```
+
 <h2>🛠️ Installation Steps:</h2>
 
-<p>1. Install dependencies</p>
+<p>1. Create .env.local file</p>
+<p>2. Install dependencies</p>
 
 ```
 npm install
 ```
 
-<p>2. Start development server</p>
+<p>3. Start development server</p>
 
 ```
 npm run dev
