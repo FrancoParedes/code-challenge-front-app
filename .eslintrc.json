@@ -13,7 +13,8 @@
   "rules": {
     "no-console": "error",
     "react/require-default-props": "off",
-    "testing-library/no-node-access": ["error", { "allowContainerFirstChild": true }]
+    "testing-library/no-node-access": ["error", { "allowContainerFirstChild": true }],
+    "react-hooks/exhaustive-deps": "off"
   },
   "settings": {
     "react": {
