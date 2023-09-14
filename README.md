@@ -24,7 +24,7 @@ API_KEY=FLXjIkqUKZgMdCt33BAEpvdtwvfTfbI1VAbXLG8wy8g8LCeQDPIZZ5zfBp8zsM4p3Cgumsoy
 <p>2. Install dependencies</p>
 
 ```
-npm install
+npm install 
 ```
 
 <p>3. Start development server</p>
